@@ -168,3 +168,10 @@ Join Portfolio_Project..CovidVaccinations vac
 	and dea.date = vac.date
 where dea.continent is not null
 --order by 2,3
+
+
+--Now that the View has been created and saved you can write queries off of that
+Select *
+From PercentPopulationVaccinated
+--- It is not a temp table  it is now permanent 
+--- Can be used for visualizations
